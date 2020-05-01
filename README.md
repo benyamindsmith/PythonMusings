@@ -16,3 +16,4 @@ A basic start, pause and quit dialouge for a game
 ## Emoji Interpreter
 
 Write a text in the command window and this program will turn your text faces into emojis!
+(Only a handful of of emojis are listed)
