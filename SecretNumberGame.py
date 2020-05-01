@@ -2,7 +2,6 @@
 import random
 max_secret_number=random.randint(5,10)
 secret_number= random.randint(0,max_secret_number)
-
 tries=0
 
 tries_max=4
@@ -16,8 +15,8 @@ I'm thinking about a number between 0 and {str(max_secret_number)}.
 What do you think it is?
 ''')
 
-guess=input('''
-Guess: ''')
+guess=int(input('''
+Guess: '''))
 
 while guess!=secret_number and tries<tries_max-1:
     tries+=1
@@ -26,17 +25,17 @@ while guess!=secret_number and tries<tries_max-1:
     Wrong number!
     
     You have {tries_left} tries left!''')
-    guess=input('''
-    Guess: ''')
-if tries==tries_max-1:
+    guess=int(input('''
+    Guess: '''))
+if guess==secret_number and tries<tries_max: 
+    print('''
+    Correct! 
+    
+    Thanks for playing!''')
+else:
     print(f'''
     Sorry, you have run out of tries! 
     
     Please play again!
     
     The secret number was {secret_number}''')
-else: 
-    print('''
-    Correct! 
-    
-    Thanks for playing!''')
