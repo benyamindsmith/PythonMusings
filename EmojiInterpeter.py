@@ -1,4 +1,4 @@
-# Emoji Converter
+# Emoji Interpreter
 while True:
     message=input("> ")
     words=message.split(" ")
