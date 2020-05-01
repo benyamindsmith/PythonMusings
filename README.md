@@ -18,3 +18,7 @@ A basic start, pause and quit dialouge for a game
 Write a text in the command window and this program will turn your text faces into emojis!
 
 (Only a handful of of emojis are listed)
+
+## Milkbot
+
+An aggressive bot made for finding out peoples opinions about milk.
