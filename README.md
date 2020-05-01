@@ -1,5 +1,7 @@
 # PythonMusings
-A Repository of my adventures with Python
+A Repository of my adventures with Python. 
+
+Here is a breif summary of the scripts I have uploaded so far. 
 
 ## Weight converter
 The WeightConverter.py script is a kg to lbs weight converter (and vice versa)
