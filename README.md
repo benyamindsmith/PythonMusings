@@ -12,3 +12,7 @@ Python is thinking about a number. Can you guess it?
 ## Game Startup Engine
 
 A basic start, pause and quit dialouge for a game
+
+## Emoji Interpreter
+
+Write a text in the command window and this program will turn your text faces into emojis!
