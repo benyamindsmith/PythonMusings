@@ -18,4 +18,8 @@ __run code:__
 __run code:__
 
 ### 6) Write a function
-__run code__
+__run code:__
+
+### 7) List Comprehensions
+
+__run code:__
