@@ -13,3 +13,9 @@ __run code:__
 
 ### 4) Python: Division
 __run code:__ 
+
+### 5) Loops
+__run code:__
+
+### 6) Write a function
+__run code__
