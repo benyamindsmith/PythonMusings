@@ -28,3 +28,11 @@ __run here:__ https://repl.it/repls/FrozenPrudentDisc
 An aggressive bot made for finding out peoples opinions about milk.
 
 __run here:__ https://repl.it/repls/ThreadbareCrazyPi
+
+## HackerRank Challenges
+
+This is my file of solutions to Hackkerank Challenges in Python. 
+
+There are many others like it but this one is mine.
+
+__check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/hackerrankchallenges
