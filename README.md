@@ -22,8 +22,7 @@ Write a text in the command window and this program will turn your text faces in
 
 (Only a handful of of emojis are listed)
 
-__run here:__ https://repl.it/repls/ThirstyLimeClicks
-
+__run here:__ https://repl.it/repls/FrozenPrudentDisc
 ## Milkbot
 
 An aggressive bot made for finding out peoples opinions about milk.
