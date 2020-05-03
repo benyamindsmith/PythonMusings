@@ -23,3 +23,7 @@ __run code:__
 ### 7) List Comprehensions
 
 __run code:__
+
+### 8) Find the Runner-Up Score!
+
+__run code:__
