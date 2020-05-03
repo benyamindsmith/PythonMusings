@@ -6,10 +6,11 @@ Here is a brief summary of the scripts I have uploaded so far.
 ## Weight converter
 The WeightConverter.py script is a kg to lbs weight converter (and vice versa)
 
-__run here:__
+__run here:__ https://repl.it/repls/OrdinaryBothMicrobsd
 ## Secret Number Game
 Python is thinking about a number. Can you guess it?
 
+__run here:__  https://repl.it/repls/RobustNotableTransversal
 ## Game Startup Engine
 
 A basic start, pause and quit dialouge for a game
@@ -20,7 +21,7 @@ __run here:__
 Write a text in the command window and this program will turn your text faces into emojis!
 
 (Only a handful of of emojis are listed)
-__run here:__
+__run here:__ https://repl.it/repls/ThirstyLimeClicks
 
 ## Milkbot
 
