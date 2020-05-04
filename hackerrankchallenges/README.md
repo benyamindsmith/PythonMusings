@@ -5,25 +5,29 @@ This is a folder of solved HackerRank Challenges. There are many others like it,
 ## Challenges I've covered
 
 ### 1) Say "Hello World!" with Python
-   __run code:__ 
+__code:__ 
 #### 2) Python If-Else
-   __run code:__
+__code:__
 ### 3) Arithematic Operators
-__run code:__
+__code:__
 
 ### 4) Python: Division
-__run code:__ 
+__code:__ 
 
 ### 5) Loops
-__run code:__
+__code:__
 
 ### 6) Write a function
-__run code:__
+__code:__
 
 ### 7) List Comprehensions
 
-__run code:__
+__code:__
 
 ### 8) Find the Runner-Up Score!
 
-__run code:__
+__code:__
+
+### 9) Tuples
+
+__code:__
