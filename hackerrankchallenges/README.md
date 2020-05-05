@@ -43,3 +43,7 @@ __code:__
 ### 12) Find a String
 
 __code:__
+
+### 13) String Validators
+
+__code:__
