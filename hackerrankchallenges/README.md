@@ -55,3 +55,5 @@ __code:__
 ### 15) Text Wrap
 
 __code:__
+
+### 16) Finding the percentage
