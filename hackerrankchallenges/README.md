@@ -39,3 +39,7 @@ __code:__
 ### 11) Mutations
 
 __code:__
+
+### 12) Find a String
+
+__code:__
