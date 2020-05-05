@@ -51,3 +51,7 @@ __code:__
 ### 14) Text Alignment
 
 __code:__
+
+### 15) Text Wrap
+
+__code:__
