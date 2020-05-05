@@ -47,3 +47,7 @@ __code:__
 ### 13) String Validators
 
 __code:__
+
+### 14) Text Alignment
+
+__code:__
