@@ -59,3 +59,7 @@ __code:__
 ### 16) Finding the percentage
 
 __code:__
+
+### 17) The Minion Game
+
+__code:__
