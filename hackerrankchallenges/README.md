@@ -72,3 +72,7 @@ __code:__
 ### 19) String Split and Join
 
 __code:__
+
+### 20) Triangle Quest 
+
+__code:__
