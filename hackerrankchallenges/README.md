@@ -76,3 +76,7 @@ __code:__
 ### 20) Triangle Quest 
 
 __code:__
+
+### 21) sWAP cASE
+
+__code:__
