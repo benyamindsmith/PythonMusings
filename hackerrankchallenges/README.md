@@ -80,3 +80,7 @@ __code:__
 ### 21) sWAP cASE
 
 __code:__
+
+### 22) Designer Doormat
+
+__code:__
