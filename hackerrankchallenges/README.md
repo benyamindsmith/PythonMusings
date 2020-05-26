@@ -84,3 +84,7 @@ __code:__
 ### 22) Designer Doormat
 
 __code:__
+
+## 23) Reading Raw Input
+
+__code:__
