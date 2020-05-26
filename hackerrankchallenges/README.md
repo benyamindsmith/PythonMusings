@@ -85,6 +85,10 @@ __code:__
 
 __code:__
 
-## 23) Reading Raw Input
+### 23) Reading Raw Input
+
+__code:__
+
+### Floor, Ceil and Rint
 
 __code:__
