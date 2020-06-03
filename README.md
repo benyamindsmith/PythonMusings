@@ -36,3 +36,9 @@ This is my file of solutions to Hackkerank Challenges in Python.
 There are many others like it but this one is mine.
 
 __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/hackerrankchallenges
+
+## Webscraping in Python
+
+This is some code using the the BeautifulSoup package. I aim to make functions and tools that will pull and format website data.
+
+__check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/webscraping
