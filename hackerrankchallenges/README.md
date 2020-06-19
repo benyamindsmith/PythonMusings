@@ -92,3 +92,7 @@ __code:__
 ### 24) Floor, Ceil and Rint
 
 __code:__
+
+### 25) Arrays
+
+__code:__
