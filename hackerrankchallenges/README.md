@@ -5,13 +5,23 @@ This is a folder of solved HackerRank Challenges. There are many others like it,
 ## Challenges I've covered
 
 ### 1) Say "Hello World!" with Python
-__code:__ 
+__Problem:__ https://www.hackerrank.com/challenges/py-hello-world/problem
+
+__code:__  https://github.com/benyamindsmith/PythonMusings/blob/master/hackerrankchallenges/HelloWorld.py
+
 #### 2) Python If-Else
-__code:__
+__Problem:__  https://www.hackerrank.com/challenges/py-if-else/problem
+
+__code:__ https://github.com/benyamindsmith/PythonMusings/blob/master/hackerrankchallenges/IfElse.py
+
 ### 3) Arithematic Operators
-__code:__
+__Problem:__ https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
+
+__code:__ https://github.com/benyamindsmith/PythonMusings/blob/master/hackerrankchallenges/ArithematicOperators.py
 
 ### 4) Python: Division
+__Problem:__ 
+
 __code:__ 
 
 ### 5) Loops
