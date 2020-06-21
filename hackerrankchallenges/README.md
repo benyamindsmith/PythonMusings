@@ -106,3 +106,7 @@ __code:__
 
 __code:__
 
+### 28) Shape and Reshape
+
+__code:__
+
