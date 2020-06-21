@@ -110,3 +110,7 @@ __code:__
 
 __code:__
 
+### 29) Transpose and Flatten
+
+__code:__
+
