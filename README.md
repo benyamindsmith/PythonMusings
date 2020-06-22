@@ -12,33 +12,33 @@ For blog posts about Python Musings. Check out my wordpress site: https://bensst
 
 # Some of My Projects
 
-## Weight converter
+## 1) Weight converter
 The WeightConverter.py script is a kg to lbs weight converter (and vice versa)
 
 __run here:__ https://repl.it/repls/OrdinaryBothMicrobsd
-## Secret Number Game
+## 2) Secret Number Game
 Python is thinking about a number. Can you guess it?
 
 __run here:__  https://repl.it/repls/RobustNotableTransversal
-## Game Startup Engine
+## 3) Game Startup Engine
 
 A basic start, pause and quit dialouge for a game
 
 __run here:__ https://repl.it/repls/ThirstyLimeClicks
-## Emoji Interpreter
+## 4) Emoji Interpreter
 
 Write a text in the command window and this program will turn your text faces into emojis!
 
 (Only a handful of of emojis are listed)
 
 __run here:__ https://repl.it/repls/FrozenPrudentDisc
-## Milkbot
+## 5) Milkbot
 
 An aggressive bot made for finding out peoples opinions about milk.
 
 __run here:__ https://repl.it/repls/ThreadbareCrazyPi
 
-## HackerRank Challenges
+## 6) HackerRank Challenges
 
 This is my file of solutions to Hackkerank Challenges in Python. 
 
@@ -46,7 +46,7 @@ There are many others like it but this one is mine.
 
 __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/hackerrankchallenges
 
-## Webscraping in Python
+## 7) Webscraping in Python
 
 This is some code using the the BeautifulSoup package. I aim to make functions and tools that will pull and format website data.
 
