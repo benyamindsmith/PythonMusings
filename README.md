@@ -3,10 +3,14 @@ A Repository of my adventures with Python. Check regularly for updates!
 
 Here is a brief summary of the scripts I have uploaded so far. 
 
-## My Website
+(Please excuse the mess)
+
+# My Website
 
 For blog posts about Python Musings. Check out my wordpress site: https://bensstats.wordpress.com/category/python-musings/
 
+
+# Some of My Projects
 
 ## Weight converter
 The WeightConverter.py script is a kg to lbs weight converter (and vice versa)
