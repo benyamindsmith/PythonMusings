@@ -3,7 +3,7 @@ A Repository of my adventures with Python. Check regularly for updates!
 
 Here is a brief summary of the scripts I have uploaded so far. 
 
-(Please excuse the mess)
+(_Please excuse the mess_)
 
 # My Website
 
