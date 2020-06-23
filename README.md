@@ -12,15 +12,15 @@ For blog posts about Python Musings. Check out my wordpress site: https://bensst
 
 # Some of My Projects
 
-## 1) Weight converter
+## 1) ⚖ Weight converter
 The WeightConverter.py script is a kg to lbs weight converter (and vice versa)
 
 __run here:__ https://repl.it/repls/OrdinaryBothMicrobsd
-## 2) Secret Number Game
+## 2) 🔢 Secret Number Game
 Python is thinking about a number. Can you guess it?
 
 __run here:__  https://repl.it/repls/RobustNotableTransversal
-## 3) Game Startup Engine
+## 3) 🕹 Game Startup Engine
 
 A basic start, pause and quit dialouge for a game
 
@@ -38,7 +38,7 @@ An aggressive bot made for finding out peoples opinions about milk.
 
 __run here:__ https://repl.it/repls/ThreadbareCrazyPi
 
-## 6) HackerRank Challenges
+## 6) 💻 HackerRank Challenges
 
 This is my file of solutions to Hackkerank Challenges in Python. 
 
