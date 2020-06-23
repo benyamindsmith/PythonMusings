@@ -25,7 +25,7 @@ __run here:__  https://repl.it/repls/RobustNotableTransversal
 A basic start, pause and quit dialouge for a game
 
 __run here:__ https://repl.it/repls/ThirstyLimeClicks
-## 4) Emoji Interpreter
+## 4) 😀 Emoji Interpreter 😁
 
 Write a text in the command window and this program will turn your text faces into emojis!
 
