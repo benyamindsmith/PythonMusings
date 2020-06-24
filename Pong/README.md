@@ -1,5 +1,5 @@
 
-# Pong
+# 🏓Pong
 
 My take on a classic using the Kivy Framework
 
