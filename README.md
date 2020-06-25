@@ -56,3 +56,5 @@ __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/mast
 ## 8)🏓Pong 🏓
 
 My take on a writing a classic game using the Kivy framework
+
+__check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/Pong
