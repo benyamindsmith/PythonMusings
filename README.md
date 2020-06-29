@@ -64,5 +64,5 @@ __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/mast
 
 Channel your inner Piccasso with my take on the standard Paint app; Created using the Kivy framework.
 
-__check it out here:__
+__check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/ArtTherapy
 
