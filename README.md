@@ -58,3 +58,11 @@ __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/mast
 My take on a writing a classic game using the Kivy framework
 
 __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/Pong
+
+
+## 🎨🖌 __ Art Therapy__
+
+Channel your inner Piccasso with my take on the standard Paint app; Created using the Kivy framework.
+
+__check it out here:__
+
