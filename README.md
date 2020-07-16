@@ -48,7 +48,7 @@ __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/mast
 
 ## 7) Webscraping in Python
 
-This is some code using the the BeautifulSoup package. I aim to make functions and tools that will pull and format website data.
+This is some code using the the BeautifulSoup package and Comparing them to R's rvest package.
 
 __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/webscraping
 
