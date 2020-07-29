@@ -65,7 +65,7 @@ Channel your inner Piccasso with my take on the standard Paint app; Created usin
 
 __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/ArtTherapy
 
-## 10) Pygame
+## 10) ⚔ Pygame 🐲
 
 A game I'm still presently working on:
 
