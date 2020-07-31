@@ -22,11 +22,12 @@ class player(object):
         self.vel = 5
         self.isMelee = False
         self.attackCount = 0
-        self.isStanding =False
+        self.isStanding = False
         self.StandCount = 0
-        self.position = False # False = Right, True = Left
+        self.position = False  # False = Right, True = Left
         self.hurt = False
-        self.hurtCount= 0
+        self.hurtCount = 0
+        self.health = 10
 
     def draw(self, win):
         if self.WalkCount + 1 >= 18:
@@ -62,7 +63,7 @@ class player(object):
             self.WalkCount += 1
 
         if self.isJump:
-            self.hurt=False
+            self.hurt = False
             if self.position:
                 win.blit(jumpRight[self.jumpCount // 3], (self.x, self.y))
             else:
@@ -72,7 +73,7 @@ class player(object):
                 prot.hurtCount = 0
             if self.position:
 
-                win.blit(damageRight[self.hurtCount//7],(self.x,self.y))
+                win.blit(damageRight[self.hurtCount // 7], (self.x, self.y))
             else:
 
                 win.blit(damageLeft[self.hurtCount // 7], (self.x, self.y))
@@ -151,7 +152,7 @@ damageRight = [pygame.image.load("Adventurer\Individual Sprites\\adventurer-die-
 damageLeft = []
 
 for img in damageRight:
-    damageLeft.append(pygame.transform.flip(img,True,False))
+    damageLeft.append(pygame.transform.flip(img, True, False))
 
 
 ####
@@ -160,9 +161,7 @@ for img in damageRight:
 ### Enemies
 
 class enemy_a(object):
-
-
-######### Walking #################
+    ######### Walking #################
 
     walkRight = [pygame.image.load("Skeleton Walk\\tile000.png"),
                  pygame.image.load("Skeleton Walk\\tile001.png"),
@@ -184,43 +183,63 @@ class enemy_a(object):
 
     ## Attack
 
-    attackRight =[pygame.image.load("Skeleton Attack\\tile000.png"),
-                  pygame.image.load("Skeleton Attack\\tile001.png"),
-                  pygame.image.load("Skeleton Attack\\tile002.png"),
-                  pygame.image.load("Skeleton Attack\\tile003.png"),
-                  pygame.image.load("Skeleton Attack\\tile004.png"),
-                  pygame.image.load("Skeleton Attack\\tile005.png"),
-                  pygame.image.load("Skeleton Attack\\tile006.png"),
-                  pygame.image.load("Skeleton Attack\\tile007.png"),
-                  pygame.image.load("Skeleton Attack\\tile008.png"),
-                  pygame.image.load("Skeleton Attack\\tile009.png"),
-                  pygame.image.load("Skeleton Attack\\tile010.png"),
-                  pygame.image.load("Skeleton Attack\\tile011.png"),
-                  pygame.image.load("Skeleton Attack\\tile012.png"),
-                  pygame.image.load("Skeleton Attack\\tile013.png"),
-                  pygame.image.load("Skeleton Attack\\tile014.png"),
-                  pygame.image.load("Skeleton Attack\\tile015.png"),
-                  pygame.image.load("Skeleton Attack\\tile016.png"),
-                  pygame.image.load("Skeleton Attack\\tile017.png"),
-                  ]
+    attackRight = [pygame.image.load("Skeleton Attack\\tile000.png"),
+                   pygame.image.load("Skeleton Attack\\tile001.png"),
+                   pygame.image.load("Skeleton Attack\\tile002.png"),
+                   pygame.image.load("Skeleton Attack\\tile003.png"),
+                   pygame.image.load("Skeleton Attack\\tile004.png"),
+                   pygame.image.load("Skeleton Attack\\tile005.png"),
+                   pygame.image.load("Skeleton Attack\\tile006.png"),
+                   pygame.image.load("Skeleton Attack\\tile007.png"),
+                   pygame.image.load("Skeleton Attack\\tile008.png"),
+                   pygame.image.load("Skeleton Attack\\tile009.png"),
+                   pygame.image.load("Skeleton Attack\\tile010.png"),
+                   pygame.image.load("Skeleton Attack\\tile011.png"),
+                   pygame.image.load("Skeleton Attack\\tile012.png"),
+                   pygame.image.load("Skeleton Attack\\tile013.png"),
+                   pygame.image.load("Skeleton Attack\\tile014.png"),
+                   pygame.image.load("Skeleton Attack\\tile015.png"),
+                   pygame.image.load("Skeleton Attack\\tile016.png"),
+                   pygame.image.load("Skeleton Attack\\tile017.png"),
+                   ]
 
-    attackLeft =[]
+    attackLeft = []
     for img in attackRight:
         attackLeft.append(pygame.transform.flip(img, True, False))
 
-    damageRight=[pygame.image.load("Skeleton Hit\\tile000.png"),
-                 pygame.image.load("Skeleton Hit\\tile001.png"),
-                 pygame.image.load("Skeleton Hit\\tile002.png"),
-                 pygame.image.load("Skeleton Hit\\tile003.png"),
-                 pygame.image.load("Skeleton Hit\\tile004.png"),
-                 pygame.image.load("Skeleton Hit\\tile005.png"),
-                 pygame.image.load("Skeleton Hit\\tile006.png"),
-                 pygame.image.load("Skeleton Hit\\tile007.png"),]
+    damageRight = [pygame.image.load("Skeleton Hit\\tile000.png"),
+                   pygame.image.load("Skeleton Hit\\tile001.png"),
+                   pygame.image.load("Skeleton Hit\\tile002.png"),
+                   pygame.image.load("Skeleton Hit\\tile003.png"),
+                   pygame.image.load("Skeleton Hit\\tile004.png"),
+                   pygame.image.load("Skeleton Hit\\tile005.png"),
+                   pygame.image.load("Skeleton Hit\\tile006.png"),
+                   pygame.image.load("Skeleton Hit\\tile007.png"), ]
 
-    damageLeft=[]
+    damageLeft = []
     for img in damageRight:
-        damageLeft.append(pygame.transform.flip(img,True,False))
+        damageLeft.append(pygame.transform.flip(img, True, False))
 
+    deadRight=[pygame.image.load("Skeleton Dead\\tile000.png"),
+               pygame.image.load("Skeleton Dead\\tile001.png"),
+               pygame.image.load("Skeleton Dead\\tile002.png"),
+               pygame.image.load("Skeleton Dead\\tile003.png"),
+               pygame.image.load("Skeleton Dead\\tile004.png"),
+               pygame.image.load("Skeleton Dead\\tile005.png"),
+               pygame.image.load("Skeleton Dead\\tile006.png"),
+               pygame.image.load("Skeleton Dead\\tile007.png"),
+               pygame.image.load("Skeleton Dead\\tile008.png"),
+               pygame.image.load("Skeleton Dead\\tile009.png"),
+               pygame.image.load("Skeleton Dead\\tile010.png"),
+               pygame.image.load("Skeleton Dead\\tile011.png"),
+               pygame.image.load("Skeleton Dead\\tile012.png"),
+               pygame.image.load("Skeleton Dead\\tile013.png"),
+               pygame.image.load("Skeleton Dead\\tile014.png")]
+
+    deadLeft=[]
+
+    for img in deadRight:
+        deadLeft.append(pygame.transform.flip(img, True, False))
     def __init__(self, x, y, width, height, end):
 
         self.x = x
@@ -232,18 +251,21 @@ class enemy_a(object):
         self.WalkCount = 0
         self.Walking = True
         self.vel = 2
-        self.isMelee= False
+        self.isMelee = False
         self.attackCount = 0
-        self.position =True  # False = Right, True = Left
-        self.hurt =False
-        self.hurtCount =0
+        self.position = True  # False = Right, True = Left
+        self.hurt = False
+        self.hurtCount = 0
+        self.health = 100
+        self.dead = False
+        self.deadCount=0
 
     def draw(self, win):
         self.move()
         if self.WalkCount + 1 >= 39:
             self.WalkCount = 0
-        if self.attackCount+1 >= 18:
-            self.attackCount=0
+        if self.attackCount + 1 >= 18:
+            self.attackCount = 0
 
         if self.Walking:
             if self.vel > 0:
@@ -262,44 +284,74 @@ class enemy_a(object):
                 win.blit(self.attackLeft[self.attackCount // 2], (self.x, self.y))
                 self.attackCount += 1
         if self.hurt:
-            if self.hurtCount +1 >= 24:
-                self.hurtCount=0
+            if self.hurtCount + 1 >= 24:
+                self.hurtCount = 0
             if self.position:
                 win.blit(self.damageRight[self.hurtCount // 3], (self.x, self.y))
                 self.hurtCount += 1
             else:
                 win.blit(self.damageLeft[self.hurtCount // 3], (self.x, self.y))
                 self.hurtCount += 1
+        if self.dead:
+            if self.position:
+                if self.deadCount+1 >= 45:
+                    win.blit(self.deadRight[len(self.deadRight)-1], (self.x, self.y))
+                else:
+                    win.blit(self.deadRight[self.deadCount//3],(self.x,self.y))
+                    self.deadCount +=1
+            else:
+                if self.deadCount+1 >= 45:
+                    win.blit(self.deadLeft[len(self.deadLeft)-1], (self.x, self.y))
+                else:
+                    win.blit(self.deadLeft[self.deadCount//3],(self.x,self.y))
+                    self.deadCount +=1
+
+
 
     def move(self):
-
-        if self.vel > 0:
-            if self.x + self.vel < self.path[1]:
-                self.x += self.vel
+        if self.path[0]< self.path[1]:
+            if self.vel > 0:
+                if self.x + self.vel < self.path[1]:
+                    self.x += self.vel
+                else:
+                    self.vel = self.vel * -1
+                    self.WalkCount = 0
             else:
-                self.vel = self.vel * -1
-                self.WalkCount = 0
+                if self.x - self.vel > self.path[0]:
+                    self.x += self.vel
+                else:
+                    self.vel = self.vel * - 1
+                    self.WalkCount = 0
         else:
-            if self.x - self.vel > self.path[0]:
-                self.x += self.vel
+            self.Walking=False
+            if prot.x > self.x:
+                self.Walking=True
+
+            if self.x + self.vel < self.path[0]:
+                    self.x += self.vel
             else:
-                self.vel = self.vel * - 1
-                self.WalkCount = 0
+                    self.vel = self.vel * -1
+                    self.WalkCount = 0
+
+
 
 
 
 bg = pygame.image.load("Background.png")
 clock = pygame.time.Clock()
 prot = player(500, 700, 50, 37)
-enemy= enemy_a(0, 700, 22, 33, 900)
-
-
+enemy = enemy_a(800, 700, 22, 33, 15)
+enemy_2 = enemy_a(15, 700, 22, 33,900)
 
 
 def redraw_game_window():
     win.blit(bg, (0, 0))
     prot.draw(win)
     enemy.draw(win)
+    if enemy.dead:
+        enemy_2.draw(win)
+
+
     pygame.display.update()
 
 
@@ -372,40 +424,99 @@ while run:
 
         else:
             prot.isJump = False
-            prot.hurt=False
+            prot.hurt = False
             prot.jumpCount = 8
 
-    if abs(prot.x-enemy.x) < 33:
-        enemy.vel= 0
-        enemy.isMelee = True
-    else:
-        if np.sign(prot.x-enemy.x) > 0:
-            enemy.position =True
-            enemy.isMelee=False
-            enemy.vel= 2
-            enemy.Walking=True
-            enemy.hurt=False
+    if enemy.dead == False:
+        if abs(prot.x - enemy.x) < 33:
+            enemy.vel = 0
+            enemy.isMelee = True
         else:
-            enemy.position=False
-            enemy.Walking = False
+
+            if np.sign(prot.x - enemy.x) > 0:
+                enemy.position = True
+                enemy.isMelee = False
+                enemy.vel = 2
+                enemy.Walking = True
+                enemy.hurt = False
+            else:
+                enemy.position = False
+                enemy.Walking = False
+                enemy.isMelee = False
+                enemy.hurt = False
+                enemy.vel = -2
+
+        if enemy.isMelee == True and prot.isMelee == False:
+            enemy.hurt = False
+            prot.hurt = True
+            prot.hurt = True
+            prot.right = False
+            prot.left = False
+            prot.isStanding = False
+            prot.hurtCount += 1
+            prot.health -= 1
+        else:
+            prot.hurt = False
+
+        if prot.isMelee == True and abs(prot.x - enemy.x) < 33:
             enemy.isMelee = False
-            enemy.hurt=False
-            enemy.vel = -2
+            enemy.hurt = True
+            enemy.health -= 1
 
-    if enemy.isMelee == True and prot.isMelee ==False:
-        enemy.hurt=False
-        prot.hurt = True
-        prot.hurt=True
-        prot.right=False
-        prot.left=False
-        prot.isStanding=False
-        prot.hurtCount+=1
+        if enemy.health == 0:
+            enemy.dead = True
+
     else:
-        prot.hurt=False
+        enemy.hurt = False
+        enemy.vel = 0
+        enemy.isMelee = False
+        enemy.Walking = False
+    #### Enemy 2 ####
+        if enemy_2.dead == False:
+            if abs(prot.x - enemy_2.x) < 30:
+                enemy_2.vel = 0
+                enemy_2.isMelee = True
+            else:
 
-    if prot.isMelee==True and abs(prot.x-enemy.x) < 33:
-        enemy.isMelee=False
-        enemy.hurt=True
+                if np.sign(prot.x - enemy_2.x) > 0:
+                    enemy_2.position = True
+                    enemy_2.isMelee = False
+                    enemy_2.vel = 2
+                    enemy_2.Walking = True
+                    enemy_2.hurt = False
+                else:
+                    enemy_2.position = False
+                    enemy_2.Walking = False
+                    enemy_2.isMelee = False
+                    enemy_2.hurt = False
+                    enemy_2.vel = -2
+
+            if enemy_2.isMelee == True and prot.isMelee == False:
+                enemy_2.hurt = False
+                prot.hurt = True
+                prot.hurt = True
+                prot.right = False
+                prot.left = False
+                prot.isStanding = False
+                prot.hurtCount += 1
+                prot.health -= 1
+            else:
+                prot.hurt = False
+
+            if prot.isMelee == True and abs(prot.x - enemy_2.x) < 30:
+                enemy_2.isMelee = False
+                enemy_2.hurt = True
+                enemy_2.health -= 1
+
+            if enemy_2.health == 0:
+                enemy_2.dead = True
+
+        else:
+            enemy_2.hurt = False
+            enemy_2.vel = 0
+            enemy_2.isMelee = False
+            enemy_2.Walking = False
+
 
 
 
