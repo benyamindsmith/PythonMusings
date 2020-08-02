@@ -69,5 +69,5 @@ __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/mast
 
 A game I'm still presently working on:
 
-__Don't look here yet:__ https://github.com/benyamindsmith/PythonMusings/tree/master/Pygame_game
+__check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/Pygame_game
 
