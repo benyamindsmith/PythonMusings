@@ -71,3 +71,9 @@ A game I'm still presently working on:
 
 __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/Pygame_game
 
+## 11) 💻 Computer Vision 👀
+
+(Some of) My adventures with the OpenCV library
+
+__check it out here:__
+
