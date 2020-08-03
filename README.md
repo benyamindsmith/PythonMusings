@@ -75,5 +75,5 @@ __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/mast
 
 (Some of) My adventures with the OpenCV library
 
-__check it out here:__
+__check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/ComputerVision
 
