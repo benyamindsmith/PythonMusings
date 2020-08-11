@@ -7,7 +7,7 @@ def search_amazon(driver_type,driver_path, query):
         browser=webdriver.Chrome(driver_path)
     elif driver_type == 'Edge' or driver_type == 'edge':
         browser = webdriver.Edge(driver_path)
-    elif driver_type == 'Edge' or driver_type == 'edge':
+    elif driver_type == 'Safari' or driver_type == 'safari':
         browser = webdriver.Safari(driver_path)
     elif driver_type =="Opera" or driver_type =="opera":
         browser=webdriver.Opera(driver_path)
@@ -18,4 +18,3 @@ def search_amazon(driver_type,driver_path, query):
     searchBar.send_keys(query)
     enter = browser.find_element_by_xpath('//*[@id="nav-search"]/form/div[2]/div/input')
     enter.click()
-
