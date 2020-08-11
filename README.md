@@ -77,3 +77,7 @@ __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/mast
 
 __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/ComputerVision
 
+## 12) 🕸 Web Crawling 🕷
+
+Some cool tools I developed with Selenium
+__check it out here:__ 
