@@ -1,7 +1,27 @@
+
 from selenium import webdriver
 from time import sleep
 
 def search_amazon(driver_type,driver_path, query):
+    '''
+    Search for products on Amazon.ca  all from the comfort of your IDE!
+
+    ** Argument Definitions **
+
+    :arg driver_type - Specify which driver you will be using.
+                            Currently Compatible with Chrome, Edge,
+                            Safari and Opera
+    :arg driver_path - Path to your driver
+    :arg query - What you want to look up
+
+    ** Example **
+
+    # I'm using the Chrome Driver
+
+    myDriverPath =C:\\Path\\chromedriver.exe
+    search_amazon('Chrome',myDriverPath,'Diapers')
+
+    '''
     global browser
     if driver_type =='Chrome' or driver_type=='chrome':
         browser=webdriver.Chrome(driver_path)
@@ -18,3 +38,5 @@ def search_amazon(driver_type,driver_path, query):
     searchBar.send_keys(query)
     enter = browser.find_element_by_xpath('//*[@id="nav-search"]/form/div[2]/div/input')
     enter.click()
+
+
