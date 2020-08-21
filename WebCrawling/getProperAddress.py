@@ -29,4 +29,6 @@ def getProperAddress(driverPath, addressesToValidate):
 
     ProperAddress = ProperAddress_1.text + " " + ProperAddress_2.text
 
+    browser.close()
+
     return ProperAddress
