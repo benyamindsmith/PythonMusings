@@ -8,7 +8,7 @@ from time import sleep
 
 def getProperAddress(driverPath, addressesToValidate):
 
-    browser = webdriver.Chrome(myDriverPath)
+    browser = webdriver.Chrome(driverPath)
 
     browser.get("https://www.google.com/maps")
 
@@ -16,7 +16,7 @@ def getProperAddress(driverPath, addressesToValidate):
     textBox = browser.find_element_by_xpath('//*[@id="searchboxinput"]')
     textBox.click()
     sleep(1)
-    textBox.send_keys("27 Michael Crt. Thornhill")
+    textBox.send_keys(addressesToValidate)
 
     sleep(1)
     searchMaps = browser.find_element_by_xpath('//*[@id="searchbox-searchbutton"]')
@@ -30,4 +30,3 @@ def getProperAddress(driverPath, addressesToValidate):
     ProperAddress = ProperAddress_1.text + " " + ProperAddress_2.text
 
     return ProperAddress
-
