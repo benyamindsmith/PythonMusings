@@ -1,4 +1,4 @@
-ef getGeocode(driverPath, Address):
+def getGeocode(driverPath, Address):
     '''
     A function for getting geocodes of a given address on geocode.ca with Selenium.
     Currently only compatible with ChromeDriver.
