@@ -19,7 +19,8 @@ def getGeocode2(driverPath, Address):
     sleep(5)
     try:
         geoCode= browser.find_element_by_xpath('//*[@id="bg-text"]/small/a').text
+        browser.close()
     except:
         geoCode="Na"
+        browser.close()
     return geoCode
-
