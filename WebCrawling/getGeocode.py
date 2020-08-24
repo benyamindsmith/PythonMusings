@@ -12,13 +12,16 @@ def getGeocode(driverPath, Address):
     sleep(2)
     textBox = browser.find_element_by_class_name('input-block-level')
     textBox.click()
-    textBox.send_keys(Address)
-    enter =browser.find_element_by_xpath('//*[@id="geocode"]/input[2]')
-    enter.click()
     try:
-        geoCode= browser.find_element_by_xpath('/html/body/div[2]/table[2]/tbody/tr/td[2]/p/strong').text
-        browser.close()
+        textBox.send_keys(Address)
+        enter = browser.find_element_by_xpath('//*[@id="geocode"]/input[2]')
+        enter.click()
+        try:
+            geoCode = browser.find_element_by_xpath('/html/body/div[2]/table[2]/tbody/tr/td[2]/p/strong').text
+            browser.close()
+        except:
+            geoCode = "Na"
+            browser.close()
     except:
         geoCode="Na"
-        browser.close()
     return geoCode
