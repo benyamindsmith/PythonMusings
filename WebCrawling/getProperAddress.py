@@ -7,28 +7,44 @@ from time import sleep
 
 
 def getProperAddress(driverPath, addressesToValidate):
+    '''
 
+    '''
     browser = webdriver.Chrome(driverPath)
 
-    browser.get("https://www.google.com/maps")
+    try:
+        browser.get("https://www.google.com/maps")
 
-    sleep(2)
-    textBox = browser.find_element_by_xpath('//*[@id="searchboxinput"]')
-    textBox.click()
-    sleep(1)
-    textBox.send_keys(addressesToValidate)
+        sleep(2)
+        textBox = browser.find_element_by_xpath('//*[@id="searchboxinput"]')
+        textBox.click()
+        sleep(1)
+        try:
+            textBox.send_keys(addressesToValidate)
 
-    sleep(1)
-    searchMaps = browser.find_element_by_xpath('//*[@id="searchbox-searchbutton"]')
-    searchMaps.click()
+            sleep(1)
+            searchMaps = browser.find_element_by_xpath('//*[@id="searchbox-searchbutton"]')
+            searchMaps.click()
 
-    sleep(2)
-    ProperAddress_1 = browser.find_element_by_xpath(
-        '//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[1]/h1/span[1]')
-    ProperAddress_2 = browser.find_element_by_xpath('//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[1]/h2/span')
+            sleep(2)
 
-    ProperAddress = ProperAddress_1.text + " " + ProperAddress_2.text
+            ProperAddress_1 = browser.find_element_by_xpath(
+                '//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[1]/h1/span[1]')
+            ProperAddress_2 = browser.find_element_by_xpath(
+                '//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[1]/h2/span')
 
-    browser.close()
+            ProperAddress = ProperAddress_1.text + " " + ProperAddress_2.text
+            browser.close()
+        except:
+
+            try:
+                ProperAddress = browser.find_element_by_class_name("section-hero-header-title-description")
+                browser.close()
+            except:
+                ProperAddress = "Nan"
+                browser.close()
+            return ProperAddress
+    except:
+        ProperAddress="Nan"
 
     return ProperAddress
