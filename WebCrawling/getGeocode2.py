@@ -1,4 +1,5 @@
 
+
 def getGeocode2(driverPath, Address):
     '''
     A function for getting geocodes of a given address on https://geocode.xyz/ with Selenium
@@ -11,13 +12,16 @@ def getGeocode2(driverPath, Address):
     '''
     browser = webdriver.Chrome(driverPath)
     browser.get("https://geocode.xyz/")
+    sleep(3)
     textBox = browser.find_element_by_xpath('//*[@id="hello"]/div/div/div/div[1]/div/div/form/div/div/div[1]/input')
     textBox.click()
+    sleep(2)
     textBox.send_keys(Address)
     enter = browser.find_element_by_xpath('//*[@id="hello"]/div/div/div/div[1]/div/div/form/div/input')
     sleep(5)
     enter.click()
     try:
+        sleep(2)
         geoCode = browser.find_element_by_xpath('//*[@id="bg-text"]/small/a').text
         browser.close()
     except:
