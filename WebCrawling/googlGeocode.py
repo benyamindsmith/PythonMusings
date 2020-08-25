@@ -55,3 +55,4 @@ def googlGeocode(driverPath, addressesToGeoCode):
         geoCode="Nan"
 
     return [ProperAddress,geoCode]
+
