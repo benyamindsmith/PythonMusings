@@ -36,7 +36,7 @@ def googlGeocode(driverPath, addressesToGeoCode):
             ProperAddress = ProperAddress_1.text + " " + ProperAddress_2.text
             geoCode=browser.current_url
 
-            geoCode=re.findall('@\d{1,2}\.\d{7},(|-)\d{1,2}\.\d{7}',geoCode)
+            geoCode=re.findall('@\d{1,3}\.\d{5,},-\d{1,3}\.\d{5,}',geoCode)
             browser.close()
 
         except:
