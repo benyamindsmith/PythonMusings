@@ -82,3 +82,10 @@ __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/mast
 Some cool tools I developed with Selenium (I have some R here too 🤫 < Shhh..)
 
 __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/WebCrawling
+
+## 13) 🤠 Django Adventures 
+
+I am trying to get better at understanding the Django framework. This is where I will share some codes along the way.
+
+
+__check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/Django
