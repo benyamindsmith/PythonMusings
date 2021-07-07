@@ -90,7 +90,7 @@ I am trying to get better at understanding the Django framework. This is where I
 
 __check it out here:__ https://github.com/benyamindsmith/PythonMusings/tree/master/Django
 
-## 14) 🤠 Qt Browser
+## 14) 🖱 Qt Browser
 
 I recently learned how to make my own browser using the `PyQt5` module. Right now its pretty much verbatim from what I learned from [Programming Hero's youtube video](https://www.youtube.com/watch?v=z-5bZ8EoKu4&t=1467s). This definitely has potential to expand into its own project. But for this Repo, the basic code is here: 
 
